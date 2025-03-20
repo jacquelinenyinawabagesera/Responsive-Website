@@ -2,18 +2,18 @@ body{
     overflow-x: hidden;
 }
 
-.banner-header{
+.header-container{
     padding: 8px 0px;
     background-color: black;
     margin: 0;
 
 }
-.banner-paragraph{
+.company-description{
     color: white;
     text-align: center;
 
 }
-.navigation-left{
+.contact-info-left{
     display: flex;
 }
 #navigation-left-icon{
@@ -22,11 +22,11 @@ body{
     font-size: 50px;
     margin-left: 20px;
 }
-.navigation-left-text{
+.email-info{
     font-size: 20px;
     margin-left: 20px;
 }
-.navigation-right{
+.contact-info-right{
     display: flex;
 }
 #navigation-right-icon{
@@ -43,12 +43,12 @@ body{
 .navigation-right-text{
     font-size: 15px;
 }
-.banner-lists{
+.main-menu{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
-.banner-list-li{
+.menu-item{
     text-decoration: none;
     color: rgb(247, 165, 0);
     font-weight: bolder;
@@ -72,19 +72,19 @@ body{
 
 }
 
-.body-image-texts{
+.hero-section{
     width: 100%;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url(images/faminely.jpeg);
+    background-image: url(images/depositphotos_218473570-stock-photo-young-couple-packing-boxes-children.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     display: flex;
 
 }
-.texts-image-paragraph{
+.hero-heading{
     font-size: 15px;
     color: white;
     margin-bottom: 0px;
@@ -95,7 +95,7 @@ body{
     margin-left: 35%;
 
 }
-.texts-image-header{
+.hero-subheading{
     width: 40%;
     font-size: 65px;
     margin-left: 30%;
@@ -103,11 +103,11 @@ body{
     font-weight: 200px;
     font-family: "Open Sans", sans-serif;
 }
-.banner-span-text{
+.call-to-action-texts{
     text-decoration: underline;
     font-weight: bolder;
 }
-.body-main-button{
+.hero-call-to-action{
     background-color: rgb(255, 196, 0);
     width: 20%;
     height: 60px;
