@@ -68,7 +68,7 @@ body{
 .hero-section .hero-background {
     background-image: url(images/home-img.jpg);
     width: 100%;
-    height: 80vh;
+    /* height: 0vh; */
 }
 
 .hero-section .hero-background i {
@@ -78,9 +78,17 @@ body{
 .hero-intro {
     text-align: center;
 }
+.hero-intro p{
+    color: white;
+}
+.hero-intro h1{
+    color: white;font-family: bold;font-size: 5vh;
+}
 
 .cta-button {
     padding: 15px 30px;
+    border: none;
+    background-color: #F9B42E;
 }
 
 .about-section {
