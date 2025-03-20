@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Lilita+One&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+HU:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=UnifrakturMaguntia&display=swap');
-
 body{
     overflow-x: hidden;
 }
-/* styling the banner */
 
 .banner-header{
     padding: 8px 0px;
@@ -16,7 +13,6 @@ body{
     text-align: center;
 
 }
-/* moving to navigation part */
 .navigation-left{
     display: flex;
 }
@@ -75,9 +71,8 @@ body{
     background-color: rgba(255, 255, 255, .2);
 
 }
-/* styling the image with texts in the image */
+
 .body-image-texts{
-    /* display: inline; */ 
     width: 100%;
     height: 100vh;
     justify-content: center;
@@ -119,8 +114,6 @@ body{
 
 }
 
-/* second section */
-/* about-left-side */
 .about-left-side{
     margin-left: 100px;
 }
@@ -257,7 +250,6 @@ body{
 .logo-ipsum-magnify-glass{
     display: flex;
 }
-/* styling the "what we do part" with different inputs */
 .packing-div{
     background-color: rgb(255, 255, 255);
     width: 23%;
@@ -584,7 +576,6 @@ body{
 
 
 }
-/* play button */
 
 
 #play-button {
@@ -595,14 +586,13 @@ body{
    font-size: 60px;
    background-color: rgba(252, 182, 6, 0.9);
 }
-/* moving to the next section */
-.testimonials {
+.customer-reviews{
     text-align: center;
     padding: 60px 20px;
     background-color: #f5f5f5;
 }
 
-.testimony-section-subtitle {
+.reviews-subheading{
     color: #f4a20c;
     font-size: 16px;
     text-decoration: underline;
@@ -611,20 +601,20 @@ body{
     letter-spacing: 1px;
 }
 
-.testimony-section-title {
+.reviews-heading{
     font-size: 42px;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
-.testimonials-container {
+.review-cards-container{
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.testimonial-card {
+.review-card{
     background: white;
     padding: 30px;
     height: 30vh;
@@ -635,29 +625,29 @@ body{
     position: relative;
 }
 
-.quote-icon {
+.quote-symbol{
     font-size: 24px;
     color: #3b82f6;
 }
 
-.testimonial-text {
+.review-description{
     font-size: 18px;
     color: #444;
     margin: 15px 0;
 }
 
-.customer-name {
+.reviewer-name{
     font-weight: bold;
     color: #f4a20c;
     margin-top: 10px;
 }
 
-.customer-role {
+.review-position{
     font-size: 12px;
     color: gray;
 }
 
-.customer-image {
+.review-photo{
     width: 50px;
     height: 50px;
     border-radius: 50%;
