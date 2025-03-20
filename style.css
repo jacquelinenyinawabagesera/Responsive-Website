@@ -1,76 +1,99 @@
 body{
     overflow-x: hidden;
 }
-
-.header-container{
-    padding: 8px 0px;
-    background-color: black;
-    margin: 0;
-
+.section-header{
+    background-color: rgb(46,44,42);display: flex;justify-content: center;gap: 20px;
 }
-.company-description{
+.section-header p{
     color: white;
-    text-align: center;
-
 }
-.contact-info-left{
-    display: flex;
+.section-header p a{
+    color: white;
 }
-#navigation-left-icon{
-    color: rgb(130, 130, 231);
+.icon-plus{
+    color: #F9B42E;
+}
+.nav-links{
+    color: rgb(68, 64, 64);
+}
+.icon-tick {
+    padding: 5px;
+    border-radius: 50%;
+    /* height: 2vh; */
+    background-color: orange;
+    color: black;
     margin-top: 20px;
-    font-size: 50px;
-    margin-left: 20px;
+    margin-bottom: 20px;
 }
-.email-info{
-    font-size: 20px;
-    margin-left: 20px;
-}
-.contact-info-right{
-    display: flex;
-}
-#navigation-right-icon{
-    color: rgb(142, 142, 240);
-    font-size: 40px;
-    margin-top:28px;
-    margin-right: 20px;
-}
-.navigation{
+
+
+.contact-section {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    width: 80%;
+    margin: 20px auto;
 }
-.navigation-right-text{
-    font-size: 15px;
+
+.email-info i,
+.phone-info i {
+    font-size: 30px;
+    color: blue;
+    border-radius: 50%;
+    background-color: rgb(218, 215, 215);
+    padding: 10px;
 }
-.main-menu{
+
+.email-info p,
+.phone-info p {
+    font-weight: 800;
+}
+
+.email-info span,
+.phone-info span {
+    display: block;
+}
+
+.navigation-menu {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    list-style-type: none;
+    width: 80%;
+    margin: 0 auto;
 }
-.menu-item{
+
+.navigation-menu a {
     text-decoration: none;
-    color: rgb(247, 165, 0);
-    font-weight: bolder;
-   
-
 }
-.banner-image{
 
-    width:100%;
-    height: 100vh;
+.hero-section .hero-background {
+    background-image: url(images/home-img.jpg);
+    width: 100%;
+    height: 80vh;
+}
 
+.hero-section .hero-background i {
+    border-radius: 50%;
 }
-.banner-image-div{
-    margin-top: 30px;
-}
-.texts-in-image{
-    margin-top: 250px;
-    width: 60%;
-    height: 40vh;
-    background-color: rgba(255, 255, 255, .2);
 
+.hero-intro {
+    text-align: center;
 }
+
+.cta-button {
+    padding: 15px 30px;
+}
+
+.about-section {
+    display: flex;
+}
+
+.about-info .image-wrapper img {
+    width: 100%;
+}
+
+.details-section .overlay {
+}
+
 
 .hero-section{
     width: 100%;
@@ -181,7 +204,7 @@ body{
 .about-right-side-bottom-text{
     margin-top: 60px;
 }
-.logo-first-part{
+.logo-part-one{
     background-color: rgb(61, 56, 56);
     color: white;
     height: 20px;
@@ -193,7 +216,7 @@ body{
   
   }
   
-  .logo-second-part{
+  .logo-part-two{
     background-color: white;
     color: black;
     height: 20px;
@@ -203,15 +226,15 @@ body{
     border: 1px solid black;
     font-size: 20px;
   }
-  .logo-name-container{
+  .logo-container{
       display: flex;  
       margin-top: 30px;
   }
-  .volleyball-icon-container{
+  .volleyball-wrapper{
     display: flex;
 
   }
-  .branding-section{
+  .branding-wrapper{
     display: flex;
     justify-content: space-between;
     margin:130px;
@@ -222,12 +245,12 @@ body{
     color: rgb(0, 0, 0);
     margin-top: 30px;
   }
-.icon-description{
+.icon-caption{
     font-size: 30px;
     margin-left: 10px;
 
 }
-.burger-icon-container{
+.burger-wrapper{
     display: flex;
 }
 #burger{
@@ -241,13 +264,13 @@ body{
     color: rgb(0, 0, 0);
     margin-top: 30px;
 }
-#magnifying-glass{
+#magnifying-glass-icon{
     font-size: 30px;
     color: rgb(0, 0, 0);
     margin-top: 30px;
 
 }
-.magnifying-glass-icon-container{
+.magnifying-glass-wrapper{
     display: flex;
 }
 .packing-div{
@@ -764,6 +787,9 @@ footer {
     font-size: 20px;
     margin-bottom: 10px;
     font-weight: bolder;
+}
+.navigation-links{
+    padding: 100px;
 }
 
 .navigation-links ul{
