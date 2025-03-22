@@ -3,9 +3,6 @@
     src: url(./fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf);
 }
 
-body{
-    overflow-x: hidden;
-}
 .section-header{
     background-color: rgb(46,44,42);display: flex;justify-content: center;gap: 20px;
 }
@@ -20,6 +17,9 @@ body{
 }
 .nav-links{
     color: rgb(68, 64, 64);
+}
+body{
+    overflow-x: hidden;
 }
 .icon-tick {
     padding: 5px;
@@ -37,7 +37,9 @@ body{
     justify-content: space-between;
     width: 80%;
     margin: 20px auto;
+    margin-bottom:15vh;
 }
+
 
 .email-info i,
 .phone-info i {
@@ -45,7 +47,7 @@ body{
     color: blue;
     border-radius: 50%;
     background-color: rgb(218, 215, 215);
-    padding: 10px;
+    padding: 5px;
 }
 
 .email-info p,
@@ -71,7 +73,6 @@ body{
 }
 
 .hero-section .hero-background {
-    background-image: url(images/home-img.jpg);
     width: 100%;
     /* height: 0vh; */
 }
@@ -90,7 +91,7 @@ body{
     color: white;font-family: bold;font-size: 5vh;
 }
 
-.cta-button {
+.get-started-button{
     padding: 15px 30px;
     border: none;
     background-color: #F9B42E;
@@ -103,10 +104,6 @@ body{
 .about-info .image-wrapper img {
     width: 100%;
 }
-
-.details-section .overlay {
-}
-
 
 .hero-section{
     width: 100%;
@@ -126,7 +123,6 @@ body{
     margin-bottom: 0px;
     width: 30%;
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
     margin-left: 35%;
 
@@ -136,7 +132,6 @@ body{
     font-size: 65px;
     margin-left: 30%;
     color: white;
-    font-weight: 200px;
     font-family: "Open Sans", sans-serif;
 }
 .call-to-action-texts{
@@ -179,7 +174,7 @@ body{
     width: 500px;
     height: 400px;
     background-color: transparent;
-    border: 10px solid blue;
+    border: 10px solid rgb(83, 83, 248);
     z-index: 1;
     position: absolute;
     top: 50px;
@@ -200,14 +195,17 @@ body{
     font-weight: bolder
 }
 .about-details{
-    width: 40%;
+    width: 100%;
     display: flex;
-    margin-top: 300px;
-    gap: 90px;
+    margin-top: 40vh;
+    gap: 20px;
+    /* gap: 90px; */
 
 }
 .about-right{
     display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 .company-header{
     color: rgb(255, 166, 0);
@@ -217,6 +215,65 @@ body{
 .details-text{
     margin-top: 60px;
 }
+.branding-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  
+  .logo-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-part-one, .logo-part-two {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .icons-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .volleyball-icon-container, .burger-icon-container, .basketball-icon-container, .search-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #volleyball-icon, #burger-icon, #basketball-icon, #magnifying-glass-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  #volleyball-icon {
+    color: black;
+  }
+  
+  #burger-icon {
+    color: black; 
+  }
+  
+  #basketball-icon {
+    color: black; 
+  }
+  
+  #magnifying-glass-icon {
+    color: #666; 
+  }
+  
+  .icon-description {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+
 .logo-part-one{
     background-color: rgb(61, 56, 56);
     color: white;
@@ -267,18 +324,18 @@ body{
     display: flex;
 }
 #burger{
-    font-size: 30px;
+    font-size: 60px;
     color: rgb(0, 0, 0);
     margin-top: 30px;
 
 }
 #shadow-ball{
-    font-size: 30px;
+    font-size: 60px;
     color: rgb(0, 0, 0);
     margin-top: 30px;
 }
 #magnifying-glass-icon{
-    font-size: 30px;
+    font-size: 60px;
     color: rgb(0, 0, 0);
     margin-top: 30px;
 
@@ -286,10 +343,98 @@ body{
 .magnifying-glass-wrapper{
     display: flex;
 }
+.services-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  .services-section p{
+    color: rgb(243, 177, 55);
+  }
+  
+  .services-intro {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .services-heading {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+  }
+  
+  .service-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+height: 40vh;
+
+  }
+  .service-card i{
+    margin-top: 10vh;
+  }
+  .service-card p{
+    color: rgb(95, 91, 91);
+  }
+  #storage-service{
+    background-color: #007bff;
+  }
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-icon {
+    font-size: 40px;
+    color: white;
+    background-color: #f5b400;
+    margin-bottom: 15px;
+    padding: 5%;
+    border-radius: 50%;
+  }
+  
+  .service-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .service-button {
+    background-color:rgb(247, 189, 83);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .service-button:hover {
+    background-color: #0056b3;
+  }
+  
 .packing-div{
     background-color: rgb(255, 255, 255);
     width: 23%;
-    height: 50vh;
+    height: 20vh;
 
 }
 #closed-box-icon{
@@ -297,7 +442,7 @@ body{
     padding: 30px;
     background-color: orange;
     border-radius: 60px;
-    font-size: 40px;
+    font-size: 60px;
     margin-left: 150px;
     margin-top: 50px;
 }
@@ -331,7 +476,7 @@ body{
     padding: 30px;
     background-color: white;
     border-radius: 60px;
-    font-size: 40px;
+    font-size: 60px;
     margin-left: 150px;
     margin-top: 50px;
 }
@@ -368,7 +513,7 @@ body{
 .insurance-div{
     background-color: rgb(255, 255, 255);
     width: 25%;
-    height: 50vh;
+    height: 100vh;
 
 }
 #insurance-shield-icon{
@@ -376,7 +521,7 @@ body{
     padding: 30px;
     background-color: orange;
     border-radius: 60px;
-    font-size: 40px;
+    font-size: 60px;
     margin-left: 180px;
     margin-top: 50px;
 
@@ -403,11 +548,9 @@ body{
 }
 .main-div-inputs{
     display: flex;
-    justify-content: space-between;
 }
 .section-services-paragraph{
     color: orange;
-    font-weight: 500px;
     text-decoration: underline;
     font-size: 20px;
     text-align: center;
@@ -440,7 +583,7 @@ body{
 .company-profile{
     background-image: url(images/image2.jpg);
     width: 15%;
-    height: 60vh;
+    height:30vh;
     background-size: cover;
     padding: 100px;
 
@@ -449,7 +592,6 @@ body{
 .company-highlight{
     background-color: rgba(255, 255, 255, .7);
     width: 80%;
-  
     padding: 70px;
 
 
@@ -463,7 +605,7 @@ body{
     font-size: 25px;
 }
 .question-box{
-    height:89%;
+    height:60%;
     width: 26%;
     background-color: rgb(56, 98, 196);
     z-index: -1;
@@ -476,7 +618,7 @@ body{
     font-size: 20px;
     color: white;
 }
-#tick-icons{
+.tick-icons{
     color: rgb(255, 255, 255);
     padding: 10px;
     background-color: rgb(255, 166, 0);
@@ -546,26 +688,6 @@ body{
     flex-direction: column;
     margin-top: 0px;
 }
-/* .quote-header h2{
-    width: 30%;
-    margin-top: 100px;
-   margin-left: 350px;
-} */
-
-.request-form{
-    width: 50%;
-    height: 43vh;
-    background-color: #2c5aa0;
-    padding: 30px;
-    color: white;
-    margin-top: 0px;
-
-   
-}
-/* .call-to-action{
-    text-decoration: underline;
-    text-align: center;
-} */
 
 .request-form form {
     display: flex;
@@ -706,29 +828,56 @@ body{
 .update-container{
     display: flex;flex-direction: column;align-items: center;
 }
-.input-containers{
+form {
+    background-color: rgb(88, 88, 248);
+    width: 50%;
+    height: 45.3vh;
     display: flex;
-    gap: 200px;
-}
-/* .input-containers input{
-    width: 0%;
-} */
-.update-container h1{
-    font-family: bold;
-    font-size: 5vh;
-}
-.update-container a{
-    color: #F9B42E;
-}
-.input-container{
-    display: flex;justify-content: center;gap: 20px;
-}
-.input-container p{
-    background-color: rgb(246,246,246);padding: 3vh;padding-right: 35vh;
-}
-.input-container button{
-    border: none;width: 25%;height: 7vh;margin-top: 2vh;background-color: rgb(249,180,46);color: #ffffff;
-}
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .input-containers {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  
+  label {
+    display: block;
+    color: white;
+  }
+  
+  label span {
+    color: red;
+  }
+  
+  input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F9B42E;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+  }
+  .location-input{
+    margin-left: 50px;
+  }
+  
 .blog-container{
     display: flex;flex-direction: column;align-items: center;margin-top: 100px;margin-bottom: 50px;
 }
@@ -873,7 +1022,7 @@ footer {
     margin-top: -200px;
 }
 .divider-line{
-    margin-top: 100px;
+    margin-top: 80px;
     width: 113vh;
     color: black;
 
